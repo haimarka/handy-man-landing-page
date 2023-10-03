@@ -494,6 +494,25 @@ form button{
   color: #fff;
 }
 
+.thanks-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(128, 128, 128, 0.342);
+}
+
+.thanks-container .handy-man-logo{
+  width: 7%;
+  border-radius: 2rem;
+  transform: rotateY(360deg); 
+  transition: 3s;
+}
+
+.thanks-container .handy-man-img{
+  width: 40%;
+  border-radius: 2rem;
+}
+
 @media screen and (max-width: 1024px) {
   form{
     width: 25%;

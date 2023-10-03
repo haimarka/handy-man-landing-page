@@ -61,3 +61,12 @@ function showForm(){
         form.style.display = "none";
     }
 }
+
+// go back btn
+const btn = document.getElementById("goBackBtn");
+if(btn){
+    btn.addEventListener("click", goBack);
+}
+function goBack() {
+    history.back();
+}
