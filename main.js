@@ -64,10 +64,10 @@ function showForm(){
 
 // go back btn
 
-const btn = document.getElementById("goBackBtn");
-if(btn){
-    btn.addEventListener("click", goBack);
-}
-function goBack() {
-    history.back();
-}
+// const btn = document.getElementById("goBackBtn");
+// if(btn){
+//     btn.addEventListener("click", goBack);
+// }
+// function goBack() {
+//     history.back();
+// }
