@@ -518,6 +518,10 @@ form button{
     width: 25%;
     margin-left: 37.8%;
   }
+
+  .thanks-container{
+    height: 100vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -542,6 +546,14 @@ form button{
     margin-left: 34%;
     margin-top: -5%;
   }
+
+  .thanks-container{
+   justify-content: center;
+  }
+
+  .thanks-container .handy-man-img{
+    width: 80%;
+   }
 }
 
 @media screen and (max-width:  426px) {
@@ -595,6 +607,14 @@ form button{
     margin-left: 25%;
     margin-top: -15%;
   }
+
+  .thanks-container{
+    justify-content: center;
+   }
+
+   .thanks-container .handy-man-img{
+    width: 80%;
+   }
 }
 
 @media (width < 400px) {
@@ -607,4 +627,12 @@ form button{
   .nav__links i{
     display: none;
   }
+
+  .thanks-container{
+    justify-content: center;
+   }
+
+   .thanks-container .handy-man-img{
+    width: 80%;
+   }
 }
