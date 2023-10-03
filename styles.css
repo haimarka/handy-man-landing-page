@@ -5,7 +5,7 @@
   --text-dark: #57534e;
   --text-light: #78716c;
   --white: #ffffff;
-  --max-width: 1200px;
+  --max-width: 200%;
   --header-font: "Lora", serif;
 }
 
@@ -529,10 +529,18 @@ form button{
     max-width: 20%;
   }
 
+  .nav__links i{
+    display: none;
+  }
+
   .swiper-slide img{
     margin-left: 5%;
     border-radius: 20px;
     width: 90%;
+  }
+
+  .slider-container{
+    height: 50vh;
   }
 
   .tv{
@@ -574,5 +582,9 @@ form button{
     width: 60%;
     margin-left: 25%;
     margin-top: -15%;
+  }
+
+  .nav__links i{
+    display: none;
   }
 }
